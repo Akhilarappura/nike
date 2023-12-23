@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/index.html# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./Nike_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="./Nike_files/bootstrap.css">
+  <link rel="stylesheet" href="./Nike_files/style.css">
+  <link rel="stylesheet" href="./Nike_files/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link href="./Nike_files/remixicon.css" rel="stylesheet">
+  <title>Nike</title>
+    
+
+</head>
+<body>
+    <header>
+        <nav>
+          <ul class="nav_links">
+            <li class="link logo">NIKE</li>
+            <li class="link">MEN</li>
+            <li class="link">WOMEN</li>
+            <li class="link">KIDS</li>
+            <li class="link">SPORTS</li>
+            <li class="link">BRANDS</li>
+            <li class="link">CUSTOMIZE</li>
+
+          </ul>
+
+           
+          <div class="social_icons">
+            <span><i class="ri-facebook-fill"></i></span>
+            <span><i class="ri-twitter-fill"></i></span>
+            <span><i class="ri-google-fill"></i></span>
+            <span><i class="ri-instagram-line"></i></span>
+            
+          </div>
+            
+        </nav>
+        <div class="section_container header_container">
+          <div class="header_content">
+            <h1>NIKE <br> SHOES </h1>
+            <p>SIGN UP AND GET 50% OFF</p>
+          </div>
+        </div>
+    </header>
+    <main class="main_container">
+      <div class="main_content">
+        <section class="service_container">
+          <div class="service_card">
+            <span><i class="ri-truck-line"></i></span>
+            <h4>FREE SHIPPING</h4>
+            <p>
+              Online shopping offers convenience, a vast selection of products,
+              and the ability to shop from anywhere,anytime.
+            </p>
+            <a href="http://127.0.0.1:5500/index.html#">click Here</a>
+          </div>
+          <div class="service_card">
+            <span><i class="ri-time-line"></i></span>
+            <h4>REVIEWS &amp; RATINGS</h4>
+            <p>
+            E-commerce platforms often have a review and rating sysytem wheren customer's
+           can share their feedback.
+            </p>
+            <a href="http://127.0.0.1:5500/index.html#">click Here</a>
+          </div>
+          <div class="service_card">
+            <span><i class="ri-truck-line"></i></span>
+            <h4>ON TIME DELIVERY</h4>
+            <p>
+              E -commerce companies handle the logistics of delvering products to
+             customer's doorstep.
+            </p>
+            <a href="http://127.0.0.1:5500/index.html#">click Here</a>
+          </div>
+          <div class="service_card">
+            <span><i class="ri-customer-service-line"></i></span>
+            <h4>CUSTOMER SUPPORT</h4>
+            <p>
+             E-commerce companies offer customer support services to assist customer's with their
+             queries,concern and issues.
+            </p>
+            <a href="http://127.0.0.1:5500/index.html#">click Here</a>
+          </div>
+        </section>
+        <section class="banner">
+          <div class="banner_content">
+            <p class="sutitle">OFFER OF THE MONTH</p>
+            <h4 class="title">PHANTOM VISION ELITE DYNAMIC</h4>
+            <p class="description">
+              Nike, Inc. is an American multinational association that is involved in the design, development, manufacturing and worldwide marketing and sales of apparel, footwear, accessories, equipment and services.
+            </p>
+            <div class="price"><span>$500</span></div>  <del>$1000</del>
+          </div>
+          <div class="countdown">
+            <div class="banner_image"></div>
+            <div class="square">
+              <p>09</p>
+              <span>HOURS</span>
+            </div>
+            <div class="square">
+              <p>56</p>
+              <span>MINUTES</span>
+            </div>
+            <div class="square">
+              <p>11</p>
+              <span>SECONDS</span>
+            </div>
+          </div>
+          <button>SHOP NOW</button>
+        </section></div>
+      
+        
+        
+      
+    </main>
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+  
+  
+
+
+<script src="./Nike_files/popper.min.js.download" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+<script src="./Nike_files/bootstrap.js.download"></script>
+<!-- Code injected b--></body><!--boostrap--></html>
